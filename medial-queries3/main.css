@@ -1,3 +1,60 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  display: flex;
+}
+.a {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+
+.b {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+
+.c {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+.d {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+.e {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+.f {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+.g {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+.h {
+  text-align: center;
+  font-size: 4em;
+  border: 2px red solid;
+  background-color: gray;
+}
+
+@media (min-width: 600px) {
+}
