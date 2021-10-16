@@ -114,7 +114,12 @@ body {
     height: 2em;
   }
 
-  .b, .c, .d, .e, .f, .g {
+  .b,
+  .c,
+  .d,
+  .e,
+  .f,
+  .g {
     width: 30%;
     height: 2em;
   }
@@ -122,8 +127,4 @@ body {
   .h {
     height: 4em;
   }
-
-
-
-
 }
