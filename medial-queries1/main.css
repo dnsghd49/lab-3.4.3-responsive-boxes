@@ -10,8 +10,8 @@ body {
 }
 
 .a {
-  height: 4em;
-  width: 100%;
+  min-height: 4em;
+  min-width: 100%;
   text-align: center;
   font-size: 4em;
   border: 2px red solid;
@@ -21,8 +21,8 @@ body {
 
 .b {
   
-  height: 650px;
-  width: 75%;
+  min-height: 650px;
+  min-width: 75%;
   text-align: center;
   font-size: 4em;
   border: 2px blue solid;
@@ -30,14 +30,23 @@ body {
 }
 
 .c {
-  height: 650px;
-  width: 24%;
+  min-height: 650px;
+  min-width: 24%;
   text-align: center;
   font-size: 4em;
   border: 2px purple solid;
   background-color: gray;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 800px) {
+  .a {
+    width: 50%;
+  }
 
+  .b {
+    display: none;
+  }
+  .c {
+    max-width: 1%;
+  }
 }
