@@ -41,6 +41,7 @@ body {
   background-color: gray;
   width: 32%;
   height: 4em;
+  margin-bottom: 16px;
 }
 
 .c {
@@ -50,7 +51,7 @@ body {
   background-color: gray;
   width: 32%;
   height: 4em;
-  
+  margin-bottom: 16px;
 }
 
 .d {
@@ -60,6 +61,7 @@ body {
   background-color: gray;
   width: 32%;
   height: 4em;
+  margin-bottom: 16px;
 }
 
 .e {
@@ -69,6 +71,7 @@ body {
   background-color: gray;
   width: 32%;
   height: 4em;
+  margin-bottom: 8px;
 }
 
 .f {
@@ -94,11 +97,33 @@ body {
   font-size: 4em;
   border: 2px rgb(105, 152, 255) solid;
   background-color: gray;
-  height: 8.35em;
+  height: 8.32em;
 }
 
 @media (max-width: 1619px) {
-  .a {
-    height: 6em;
+  .bcdefg {
+    width: 100%;
+    margin: 7px;
   }
+
+  .hood {
+    width: 100%;
+  }
+
+  .a {
+    height: 2em;
+  }
+
+  .b, .c, .d, .e, .f, .g {
+    width: 30%;
+    height: 2em;
+  }
+
+  .h {
+    height: 4em;
+  }
+
+
+
+
 }
