@@ -39,7 +39,7 @@ body {
   margin: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1619px) {
   .a, .c {
     width: 100%;
     height: 4em;
